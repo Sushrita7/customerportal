@@ -1,0 +1,17 @@
+
+<body style="background:linear-gradient(to top right,#80cbc4,#e1bee7,#80ddea,#d1c4e9); height: 100%;overflow: hidden;">
+    <div class="wrapper fadeInDown" style="margin-top: 5%;">
+  
+    <div id="formContent">
+      <h2 class='h2' style="margin-top: 2%"> CUSTOMER PORTAL</h2>
+      <br>
+      <br>
+      <form #f="ngForm"(ngSubmit)="getresult(f)">
+        <input type="text" id="login" class="fadeIn second" placeholder="Username" name="uname" ngModel #name="ngModel">
+        <input type="password" id="password" class="fadeIn third"  placeholder="Password" name="pwd" ngModel #pwd="ngModel">
+    <button type="submit" class="loginn">Login</button>
+      </form>
+  
+    </div>
+  </div>
+  <a routerLink="/dashboard"></a> 

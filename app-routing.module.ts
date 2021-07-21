@@ -23,7 +23,7 @@ const routes: Routes = [
   {path:'salesorder',component:SalesorderdataComponent},
   {path:'delivery',component:DeliverygetComponent},
   {path:'invoice',component:InvoiceComponent},
-  {path:'paymentaging',component:GetpaymentagingComponent},
+  {path:'getpayment',component:GetpaymentagingComponent},
   {path:'creditdebit',component:CreditdebitComponent},
   {path:'overallsales',component:OverallsalesComponent},
   {path:'masterdata',component:MasterdataComponent}
